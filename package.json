@@ -2,9 +2,8 @@
   "name": "youtube-clone",
   "version": "1.0.0",
   "description": "youtube-clone nomadcoders",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,14 @@
   "bugs": {
     "url": "https://github.com/alsry922/youtube-clone/issues"
   },
-  "homepage": "https://github.com/alsry922/youtube-clone#readme"
+  "homepage": "https://github.com/alsry922/youtube-clone#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "nodemon": "^2.0.19"
+  }
 }

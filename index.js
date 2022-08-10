@@ -1,1 +1,3 @@
-console.log("hello NodeJS");
+import express from "express";
+
+console.log("I'm good!");
