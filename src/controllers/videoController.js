@@ -1,0 +1,2 @@
+export const trending = (req, res) => res.send("Trending");
+export const watch = (req, res) => res.send("Watch Video");
